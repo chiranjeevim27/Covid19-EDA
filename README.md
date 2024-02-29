@@ -1,26 +1,62 @@
-# SHAPEAI PYTHON AND MACHINE LEARNING BOOTCAMP
-Hi I made this project during the 7 Days Free Bootcamp, conducted by <b> SHAPEAI
-</b>.
-The instructor during the session was Mr. Shaurya Sinha (Data Analyst Intern at Jio). I got to
-learn a lot during these 7 days and it was an amazing experience learning with SHAPEAI.
-<br><br>Here's the link for you to watch the sessions as well<br>
-<a href="https://www.youtube.com/playlist?list=PL7zl8TDRnbulNEA-59W7wWgCWE8LEOD6h"> <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/YOUTUBE%20THUMBNAIL-5.png"> </a>
-<br>I got to have hands on experience on:
-<li>Python
-<li>Machine Learning
-<li>Tensorflow
-<br>during these 7 days, and everything was explained from the very basics so that
-anyone with zero experience on programming can learn.
-I enjoyed these 7 days, you can as well. To register for next free 7 days bootcamp, visit:
-<a href="https://www.shapeai.tech"> www.shapeai.tech</a>
-or follow SHAPEAI on:
-<li><a href=
-"https://in.linkedin.com/company/shapeai">LinkedIn</a>
-<li><a href=
-"https://www.instagram.com/shape.ai/?hl=en">Instagram</a>
-<li><a
-href=
-"https://www.youtube.com/channel/UCTUvDLTW9meuDXWcbmISPdA">YouTu
-be</a>
-<li><a href=
-"https://github.com/shapeai">GitHub</a>
+# COVID-19 Survey Data Analysis and Modelling
+
+This repository contains a Jupyter Notebook (`Covid19-EDA.ipynb`) that performs exploratory data analysis (EDA) and builds machine learning models on the COVID-19 survey student responses dataset.
+
+## Overview
+
+The analysis covers various aspects of the dataset, including:
+
+- Visualization of survey responses related to online classes, social media usage, lifestyle changes, and more.
+- Preprocessing steps to handle missing values and convert categorical features into numerical format.
+- Building and evaluating machine learning models for predicting the impact of the COVID-19 lockdown on students' health.
+
+## Dataset
+
+The dataset used in this analysis is the "COVID-19 Survey Student Responses" dataset. The original dataset source is mentioned in the code reference.
+
+## Dependencies
+
+Make sure to install the required dependencies by running:
+
+```bash
+git clone https://github.com/chiranjeevim27/EDA-Covid-19.git
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Open the Jupyter Notebook `buildwithai-eda-modelling.ipynb` using any compatible environment.
+2. Execute the notebook cells sequentially to perform EDA and model training.
+
+## Machine Learning Models Explored
+
+1. **Logistic Regression**
+   - Hyperparameter tuning using GridSearchCV.
+   - Evaluation metrics: F1 score, confusion matrix.
+
+2. **Support Vector Classifier (SVC)**
+   - Hyperparameter tuning using GridSearchCV.
+   - Visualization of hyperparameter impact using heatmaps.
+   - Evaluation metrics: F1 score, confusion matrix.
+
+3. **Random Forest Classifier**
+   - Hyperparameter tuning using GridSearchCV.
+   - Evaluation metrics: F1 score, confusion matrix.
+
+4. **XGBoost Classifier**
+   - Hyperparameter tuning using GridSearchCV.
+   - Visualization of hyperparameter impact using heatmaps.
+   - Evaluation metrics: F1 score, confusion matrix.
+
+## Contributors
+
+- Chiranjeevi M (https://github.com/chiranjeevim27/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Feel free to explore, contribute, or provide feedback!
